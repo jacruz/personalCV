@@ -17,6 +17,7 @@ $pink-opaque-2                : #f8b8e8;
 $purple                       : #8e44ad;
 $gray                         : #95a5a6;
 $transparent-1                : #ffffff30;
+$transparent-2                : #00000015;
 
 //fonts
 $font-primary:'Audiowide',sans-serif;
@@ -35,13 +36,15 @@ $font-size-s2: calc(1em / (#{$font-scale-ratio} * #{$font-scale-ratio}));
     --color-1: #{$bright};
     --color-2: #{$yellow};
     --color-transparent-1: #{$transparent-1};
+    --color-transparent-2: #{$transparent-2};
     --color-txt-1: #{$dark};
     --color-txt-2: #{$yellow-dark};
 }
 [theme-mode='dark']{
     --color-1: #{$dark};
     --color-2: #{$orange};
-    --color-transparent-1: #{$transparent-1};
+    --color-transparent-1: #{$transparent-2};
+    --color-transparent-2: #{$transparent-1};
     --color-txt-1: #{$bright};
     --color-txt-2: #{$cyan};
 }
