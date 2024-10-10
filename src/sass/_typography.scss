@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Baumans&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+
+body{
+    font-family: $font-primary;
+    font-size: $font-size;
+    color: var(--color-txt-1);
+    background-color: var(--color-1);
+}
+
+.size-l1{
+    font-size: $font-size-l1;
+}
+.size-l2{
+    font-size: $font-size-l2;
+}
+.size-l3{
+    font-size: $font-size-l3;
+}
+.size-l4{
+    font-size: $font-size-l4;
+}
+.size-l5{
+    font-size: $font-size-l5;
+}
+.size-l6{
+    font-size: $font-size-l6;
+}
+.size-s1{
+    font-size: $font-size-s1;
+}
+.size-s2{
+    font-size: $font-size-s2;
+}
+
+
+.txt-yellow{
+    color: $yellow;
+}
+.txt-yellow-dark{
+    color: $yellow-dark;
+}
+.txt-gray{
+    color: $gray;
+}
+.txt-done{
+    text-decoration:line-through;
+}

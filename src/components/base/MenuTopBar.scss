@@ -1,0 +1,16 @@
+@import '../../sass/variables';
+@import '../../sass/typography';
+
+.menu-top-bar{
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+
+    background-color: var(--color-transparent-1);
+    backdrop-filter: blur(2px);
+}

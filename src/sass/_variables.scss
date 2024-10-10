@@ -1,0 +1,47 @@
+//Colors
+$dark                         : #1f1f1f;
+$bright                       : #f3f3f3;
+$black                        : #000;
+$white                        : #fff;
+$blue                         : #283898;
+$cyan                         : cyan;
+$green                        : #16c98d;
+$red                          : #fa5e5b;
+$yellow                       : #feef6d;
+$yellow-dark                  : #e9ca3b;
+$yellow-opaque                : #827c4c;
+$orange                       : #fe7c08;
+$pink                         : #ff708e;
+$pink-opaque-1                : #f8d8e8;
+$pink-opaque-2                : #f8b8e8;
+$purple                       : #8e44ad;
+$gray                         : #95a5a6;
+$transparent-1                : #ffffff30;
+
+//fonts
+$font-primary:'Audiowide',sans-serif;
+$font-size:1em;
+$font-scale-ratio:1.2;
+$font-size-l1: calc(1em * #{$font-scale-ratio});
+$font-size-l2: calc(1em * #{$font-scale-ratio} * #{$font-scale-ratio});
+$font-size-l3: calc(1em * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio});
+$font-size-l4: calc(1em * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio});
+$font-size-l5: calc(1em * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio});
+$font-size-l6: calc(1em * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio} * #{$font-scale-ratio});
+$font-size-s1: calc(1em / #{$font-scale-ratio});
+$font-size-s2: calc(1em / (#{$font-scale-ratio} * #{$font-scale-ratio}));
+
+[theme-mode='light']{
+    --color-1: #{$bright};
+    --color-2: #{$yellow};
+    --color-transparent-1: #{$transparent-1};
+    --color-txt-1: #{$dark};
+    --color-txt-2: #{$yellow-dark};
+}
+[theme-mode='dark']{
+    --color-1: #{$dark};
+    --color-2: #{$orange};
+    --color-transparent-1: #{$transparent-1};
+    --color-txt-1: #{$bright};
+    --color-txt-2: #{$cyan};
+}

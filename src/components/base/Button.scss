@@ -1,0 +1,14 @@
+@import '../../sass/variables';
+@import '../../sass/typography';
+
+.btn{
+    cursor: pointer;
+    border: none;
+}
+
+.btn-icon-1{
+    background-color: transparent;
+    padding: 5px 10px;
+    font-size: $font-size-l2;
+    color: var(--color-txt-2)
+}
