@@ -10,9 +10,9 @@ const globalDefault = {
     idCurrentNavBar : 0
 }
 
-export default function GlobalContext({children}){
+export function GlobalProvider({children}){
     const [global, globalDispatch] = useReducer(
-        GlobalRducer,
+        GlobalReducer,
         globalDefault
     );
     return(
@@ -24,7 +24,7 @@ export default function GlobalContext({children}){
     )
 }
 
-function GlobalRducer(global, action){
+function GlobalReducer(global, action){
     switch(action.type){
         case CONSTANTS.ACTION_UPDATE_THEME_MODE:{
             return{

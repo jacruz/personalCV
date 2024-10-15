@@ -1,17 +1,17 @@
 import MenuTopBar from "./components/base/MenuTopBar";
 import Home from "./components/home/Home";
-import GlobalContext from "./contexts/GlobalContext";
+import {GlobalProvider} from "./contexts/GlobalContext";
 
 function App() {
   return (
     <div className="App">
-      <GlobalContext>
+      <GlobalProvider>
         <MenuTopBar></MenuTopBar>
         <p>
             Hi! <code>hello world!</code>.
         </p>
         <Home></Home>
-      </GlobalContext>
+      </GlobalProvider>
     </div>
   );
 }
