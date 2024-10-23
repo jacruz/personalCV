@@ -10,7 +10,7 @@ export default function Modal({onClose,children}){
         <div className='modal'>
             <div className="modal-container modal-container-in">
                 <Button
-                    btnClassNames="btn-icon-1"
+                    btnClassNames="btn-icon-1 btn-color-3"
                     iconClassNames="fa fa-times"
                     onPress={handleClose}
                 ></Button>

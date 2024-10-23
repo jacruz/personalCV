@@ -1,8 +1,32 @@
 import { createContext, useReducer } from "react";
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
+import translationEN from "../assets/locales/en/translation.json";
+import translationES from "../assets/locales/es/translation.json";
 
 const CONSTANTS = require("../utils/constants/Constants.js");
 export const Global = createContext(null);
 export const GlobalDispatch = createContext(null);
+
+
+const resources = {
+    en: {
+      translation: translationEN,
+    },
+    es: {
+      translation: translationES,
+    },
+  };
+  
+  i18n.use(initReactI18next).init({
+    resources,
+    lng: "es",
+    fallbackLng: "es",
+    interpolation: {
+      escapeValue: false,
+    },
+  });
+  
 
 const globalDefault = {
     themeMode : 'light',

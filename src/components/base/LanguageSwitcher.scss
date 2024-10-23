@@ -1,0 +1,12 @@
+@import '../../sass/variables';
+@import '../../sass/typography';
+
+.language-selector{
+    background-color: var(--color-1);
+    color: var(--color-txt-1);
+    box-shadow: none;
+    border: solid 1px var(--color-3);
+    border-radius: 10px;
+    padding: 10px 80px;
+    font-size: $font-size-l1;
+}

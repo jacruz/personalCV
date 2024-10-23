@@ -5,7 +5,7 @@ export default function Button({btnClassNames,iconClassNames,onPress}){
     return (
         <button
             className={"btn "+btnClassNames}
-            onClick={()=>{onPress()}} 
+            onClick={()=>{onPress()}}
         >
             <i className={iconClassNames}></i>
         </button>

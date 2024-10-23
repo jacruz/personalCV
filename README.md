@@ -34,3 +34,10 @@
 - Ventana por cada proyecto
 - Cambio idioma
 - Cambio modo claro/oscuro
+
+
+
+
+
+###
+- https://www.honeybadger.io/blog/creating-multi-language-user-interface-with-react/
